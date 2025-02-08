@@ -1,19 +1,11 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -128,13 +120,13 @@ export function AddPassword() {
             <div className="mt-0 flex justify-center cursor-pointer">
               {passwordType === false ? (
                 <Eye
-                  onClick={(e) => {
+                  onClick={() => {
                     setPasswordType(!passwordType);
                   }}
                 />
               ) : (
                 <EyeOff
-                  onClick={(e) => {
+                  onClick={() => {
                     setPasswordType(!passwordType);
                   }}
                 />
