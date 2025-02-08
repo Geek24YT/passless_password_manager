@@ -48,12 +48,10 @@ Before you start, make sure you have the following environment variables added t
 Below is a screenshot of the app's UI in both light and dark modes.
 
 ### Light Mode
-
-![Light Mode Screenshot](path/to/light-mode-image.png)
+![Light Mode Screenshot](public/images/light-mode-image.png)
 
 ### Dark Mode
-
-![Dark Mode Screenshot](path/to/dark-mode-image.png)
+![Dark Mode Screenshot](public/images/dark-mode-image.png)
 
 ## Contributing
 
