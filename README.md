@@ -1,3 +1,16 @@
+# Passless - Password Manager App
+
+Passless is a modern password manager built using Next.js, TailwindCSS, Shadcn UI, and Clerk for user authentication. It allows users to securely store and manage passwords, access their vault, and keep their information encrypted. The app is fully responsive and provides a seamless user experience with both light and dark modes.
+
+## Features
+
+- **Secure Login & Signup**: User authentication via Clerk
+- **Password Management**: Store, view, and manage passwords
+- **Responsive UI**: Works on both light and dark themes
+- **Optimized Performance**: Built with Next.js for fast load times
+- **Styled with TailwindCSS**: Beautiful, modern UI components using TailwindCSS
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -20,14 +33,36 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+Before you start, make sure you have the following environment variables added to your `.env.local` file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = <your_clerk_publishable_key>`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`CLERK_SECRET_KEY=<your_clerk_secret_key>`
+
+`NEXT_PUBLIC_CLERK_SIGN_IN_URL=<your_clerk_sign_in_url>`
+
+## Demo
+
+Below is a screenshot of the app's UI in both light and dark modes.
+
+### Light Mode
+
+![Light Mode Screenshot](path/to/light-mode-image.png)
+
+### Dark Mode
+
+![Dark Mode Screenshot](path/to/dark-mode-image.png)
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature-name`)
+6. Create a new Pull Request
 
 ## Deploy on Vercel
 
